@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "rica",
+    "url": "https://github.com/ricardomaleixo",
+    "email": "ricardoaleixoo@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "bubble",
+      "url": "http://github.com/ricardomaleixo",
+      "email": "ricardoaleixoo@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "mime": "1.2.x",
+    "path-exists": "^3.0.0",
+    "socket.io": "0.9.x"
+  },
+  "description": "A simple geographic chat application",
+  "devDependencies": {},
+  "main": "app.js",
+  "name": "map-chat",
+  "repository": {
+    "url": "https://github.com/ElMassimo/map-chat",
+    "type": "git"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.8.x"
+  }
+}

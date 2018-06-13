@@ -41,6 +41,9 @@ var xmartlabslocator = {};
 		  }, 
 		  girl: {
 			icon: './img/pin-red.png'
+		  },
+		  other: {
+			icon: ''
 		  }
 		};
 		

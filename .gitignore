@@ -1,2 +1,14 @@
-/node_modules/*
-node_modules/*
+.DS_Store
+node_modules/
+npm-debug.log*
+package-lock
+firebase-debug.log
+
+# Editor directories and files
+.idea
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

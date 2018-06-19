@@ -11,6 +11,10 @@
       "email": "ricardoaleixoo@gmail.com"
     }
   ],
+  "scripts": {
+    "dev": "node build/app.js",
+    "start": "node app.js"
+  },
   "dependencies": {
     "mime": "1.2.x",
     "path-exists": "^3.0.0",
@@ -26,6 +30,7 @@
   },
   "version": "0.0.1",
   "engines": {
-    "node": "0.8.x"
+    "node": "0.8.x",
+    "npm": "5.6.0"
   }
 }

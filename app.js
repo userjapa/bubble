@@ -96,5 +96,5 @@ webSocket.sockets.on('connection', function(socket) {
   });
 });
 
-httpServer.listen(process.env.PORT || 8080, "0.0.0.0");
-console.log('Server running at 8080');
+httpServer.listen(process.env.PORT || 5000, "0.0.0.0");
+console.log('Server running at 5000');

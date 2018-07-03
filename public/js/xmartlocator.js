@@ -24,32 +24,8 @@ var xmartlabslocator = {};
 	}
 
 	function getMarker(lat, lng, title) {
-
-		var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
-        var icons = {
-          parking: {
-            icon: iconBase + 'parking_lot_maps.png'
-          },
-          library: {
-            icon: iconBase + 'library_maps.png'
-          },
-          info: {
-            icon: iconBase + 'info-i_maps.png'
-		  },
-		  boy: {
-			icon: './img/pin-blue.png'
-		  }, 
-		  girl: {
-			icon: './img/pin-red.png'
-		  },
-		  other: {
-			icon: ''
-		  }
-		};
-		
 		return new google.maps.Marker({
 			title: title,
-			icon: icons.boy.icon,
 			map: map,
 			position: new google.maps.LatLng(lat,lng)
 		});
@@ -60,6 +36,7 @@ var xmartlabslocator = {};
 			lat : position.coords.latitude,
 			lng : position.coords.longitude,
 		}
+
 		myMarker = getMarker(data.lat, data.lng, 'Me');
 
 		map.setCenter(myMarker.getPosition());

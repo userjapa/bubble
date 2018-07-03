@@ -11,15 +11,14 @@
       "email": "ricardoaleixoo@gmail.com"
     }
   ],
-  "scripts": {
-    "deploy": "npm run build && git add . && git commit -am 'deploy' && git push heroku master",
-    "dev": "node build/app.js",
-    "start": "node app.js"
-  },
   "dependencies": {
     "mime": "1.2.x",
     "path-exists": "^3.0.0",
     "socket.io": "0.9.x"
+  },
+  "scripts": {
+    "dev": "node build/app.js",
+    "start": "node app.js"
   },
   "description": "A simple geographic chat application",
   "devDependencies": {},
